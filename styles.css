@@ -1,0 +1,47 @@
+body {background-color: rgb(216, 228, 216);}
+img {border: 1px dashed black}
+
+/* For a clss of elements */
+p.codelisting {border: 1px solid black}
+
+/* Hyperlink */
+a:hover {
+    color: red;
+}
+
+/* Navigation bar */
+.navigation_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+  
+.navigation_bar li {
+    float: left;
+}
+  
+.navigation_bar li a {
+    display: block;
+    color: honeydew;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.navigation_bar li a:hover {
+    background-color: rgb(2, 90, 2);
+}
+
+/* Layout on application page */
+.left_menu_bar {
+    padding: 20px;
+    float: left;
+    width: 15%;
+}
+
+/* Page title */
+.page_title {
+    text-align:center;
+}
